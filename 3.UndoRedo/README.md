@@ -15,21 +15,7 @@ Universo Santa Tecla
    2.7. [Prototipo de Interfaz](#prototipo-de-interfaz)  
       2.7.1. [Partida ganada](#partida-ganada)  
       2.7.2. [Partida perdida](#partida-perdida)
-3. [Analisis](#analisis)  
-   3.1. [Casos de Uso](#casos-de-uso)  
-      3.1.1. [Analisis Start](#analisis-start)  
-      3.1.2. [Analisis Propose](#analisis-propose)  
-      3.1.3. [Analisis Undo](#analisis-undo)  
-      3.1.4. [Analisis Redo](#analisis-redo)  
-      3.1.5. [Analisis Resume](#analisis-resume)  
-   3.2. [Paquetes](#paquetes)  
-      3.2.1. [Vistas](#vistas)  
-      3.2.2. [Controladores](#controladores)  
-      3.2.3. [Modelos](#modelos)  
-      3.2.4. [Types](#types)  
-4. [Diseño](#diseño)  
-   4.1. [Vista de Despliegue](#vista-de-despliegue)  
-  
+
 ## Requisitos  
 
 | [Wiki](https://en.wikipedia.org/wiki/Mastermind_(board_game)) - [Youtube](https://www.youtube.com/watch?v=2-hTeg2M6GQ&ab_channel=ViciadosMesa)<br/> * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![TicTacToe](./docs/images/mastermind.jpg) | 
@@ -228,42 +214,4 @@ You've lost!!! :-(
 Do you want to continue? (y/n): 
 ```
 
-## Analisis
-![Analisis](./docs/diagrams/out/mastermind_analisis/mastermind_analisis.svg)
 
-## Casos de Uso
-
-### Analisis Start
-![Start](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_start.svg)
-
-### Analisis Propose
-![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_propose.svg)  
-
-### Analisis Undo
-![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_undo.svg)  
-
-### Analisis Redo
-![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_redo.svg)  
-
-### Analisis Resume
-![Resume](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_resume.svg)
-
-## Paquetes
-![Packages](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_packages.svg)
-
-### Vistas
-![Views](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_views.svg)
-
-### Controladores
-![Controllers](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_controllers.svg)
-
-### Modelos
-![Models](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_models.svg)
-
-### Types
-![Types](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_types.svg)  
-
-## Diseño  
-
-### Vista de Despliegue  
-![Despliegue](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_despliegue.svg)  

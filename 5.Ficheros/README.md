@@ -16,26 +16,7 @@ Universo Santa Tecla
    2.8. [Vista de Caso de Uso Resume](#vista-de-caso-de-uso-resume)  
    2.9. [Vista de Caso de Uso incluido ShowBoard](#vista-de-caso-de-uso-incluido-showboard)  
    2.10. [Prototipo de Interfaz](#prototipo-de-interfaz)  
-3. [Analisis](#analisis)  
-   3.1. [Casos de Uso](#casos-de-uso)  
-      3.1.1. [Analisis Start](#analisis-start)  
-      3.1.2. [Analisis Open](#analisis-open)  
-      3.1.3. [Analisis Propose](#analisis-propose)  
-      3.1.4. [Analisis Undo](#analisis-undo)  
-      3.1.5. [Analisis Redo](#analisis-redo)  
-      3.1.6. [Analisis Exit](#analisis-exit)  
-      3.1.7. [Analisis Save](#analisis-save)  
-      3.1.8. [Analisis Resume](#analisis-resume)  
-   3.2. [Paquetes](#paquetes)  
-      3.2.1. [Vistas](#vistas)  
-      3.2.2. [Controladores](#controladores)  
-      3.2.3. [Modelos](#modelos)  
-      3.2.4. [Types](#types)  
-4. [Diseño](#diseño)  
-   4.1. [Vista de Despliegue](#vista-de-despliegue)  
-   4.2. [Vista de Participantes](#vista-de-participantes)  
-   4.3. [Vista de Interaccion de Participantes](#vista-de-interaccion-de-participantes)  
-  
+
 ## Requisitos  
 
 | [Wiki](https://en.wikipedia.org/wiki/Mastermind_(board_game)) - [Youtube](https://www.youtube.com/watch?v=2-hTeg2M6GQ&ab_channel=ViciadosMesa)<br/> * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone + Client/Server**_<br/>  * _Persistencia: **Ficheros**_<br/> | ![TicTacToe](./docs/images/mastermind.jpg) | 
@@ -185,57 +166,3 @@ Do you want to save the game?? (y/n): n
 Do you want to continue? (y/n):
 ```
 
-## Analisis
-![Analisis](./docs/diagrams/out/mastermind_analisis/mastermind_analisis.svg)
-
-## Casos de Uso
-
-### Analisis Start
-![Start](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_start.svg)
-
-### Analisis Open
-![Open](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_open.svg)
-
-### Analisis Propose
-![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_propose.svg)  
-
-### Analisis Undo
-![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_undo.svg)  
-
-### Analisis Redo
-![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_redo.svg)  
-
-### Analisis Exit
-![Exit](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_exit.svg)
-
-### Analisis Save
-![Save](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_save.svg)
-
-### Analisis Resume
-![Resume](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_resume.svg)
-
-## Paquetes
-![Packages](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_packages.svg)
-
-### Vistas
-![Views](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_views.svg)
-
-### Controladores
-![Controllers](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_controllers.svg)
-
-### Modelos
-![Models](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_models.svg)
-
-### Types
-![Types](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_types.svg)  
-
-## Diseño  
-
-### Vista de Despliegue  
-<!--![Despliegue](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_despliegue.svg)  -->
-
-### Vista de Participantes  
-![Participantes](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_participantes.svg)  
-
-### Vista de Interacción de Participantes  
-![Interaccion_Participantes](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_participantes_interacciones.svg)  
