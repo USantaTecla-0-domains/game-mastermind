@@ -23,6 +23,10 @@ Universo Santa Tecla
 ## domainModel  
   
 ![Mastermind](docs/images/mastermind.jpg)  
+
+[WIKI](https://es.wikipedia.org/wiki/Mastermind)
+
+[Youtube](https://www.youtube.com/watch?v=2-hTeg2M6GQ)
   
 ### vocabulary
 
